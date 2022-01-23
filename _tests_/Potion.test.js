@@ -15,9 +15,5 @@ test('creates a health potion object', () => {
     expect(potion.value).toEqual(expect.any(Number));
   });
   
-  test("gets player's health value", () => {
-    const player = new Player('Dave');
-  
-    expect(player.getHealth()).toEqual(expect.stringContaining(player.health.toString()));
-  });
+
   
